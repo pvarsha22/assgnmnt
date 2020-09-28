@@ -33,7 +33,7 @@ def goodies(n, d):
 
     final_goodies = {}
     for price in prices:
-        print(inv_d[price] + ":" +str(price))
+        # print(inv_d[price] + ":" +str(price))
         final_goodies[inv_d[price]]  = price
     return final_goodies, current_min
 
